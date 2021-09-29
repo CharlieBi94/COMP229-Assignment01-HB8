@@ -1,9 +1,13 @@
 {
-  "name": "week3-demo",
-  "version": "0.0.0",
+  "name": "comp229-assignment01-hb8",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -17,5 +21,18 @@
     "morgan": "~1.9.1",
     "nodemon": "^2.0.13",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "Lab1 - Github Repo",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desuburingaa/COMP229-Assignment01-HB8.git"
+  },
+  "author": "Han Bi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desuburingaa/COMP229-Assignment01-HB8/issues"
+  },
+  "homepage": "https://github.com/Desuburingaa/COMP229-Assignment01-HB8#readme"
 }
