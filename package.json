@@ -23,7 +23,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "Lab1 - Github Repo",
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
