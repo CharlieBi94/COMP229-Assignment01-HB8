@@ -4,11 +4,28 @@
 
 
 <!-- Main Content -->
-<div class="card text-center">
-  <div class="card-body">
-    <h5 class="card-title"><%=title%></h5>
-  </div>
-</div>
+<!-- Conditional Content -->
+<% if(title == "Home"){ %>
+<%-include partials/home_content.ejs %>
+<% } %>
+
+<% if(title == "About Me"){ %>
+//include home partial
+<% } %>
+
+<% if(title == "Products"){ %>
+//include home partial
+<% } %>
+
+<% if(title == "Services"){ %>
+//include home partial
+<% } %>
+
+<% if(title == "Contact Me"){ %>
+//include home partial
+<% } %>
+
+
 
 <%- include partials/bottom_nav.ejs%>
 
