@@ -5,21 +5,27 @@
 
 <!-- Main Content -->
 <!-- Conditional Content -->
+
+<!-- use home_content partial for home page -->
 <% if(title == "Home"){ %>
 <%-include partials/home_content.ejs %>
 <% } %>
 
+<!-- use about_content partial for home page -->
 <% if(title == "About Me"){ %>
-//include home partial
+<%-include partials/about_content.ejs %>
 <% } %>
 
+<!-- use products_content partial for home page -->
 <% if(title == "Products"){ %>
 //include home partial
 <% } %>
 
+<!-- use services_content partial for home page -->
 <% if(title == "Services"){ %>
 //include home partial
 <% } %>
+
 
 <% if(title == "Contact Me"){ %>
 //include home partial
