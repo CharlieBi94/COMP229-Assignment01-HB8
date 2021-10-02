@@ -3,35 +3,28 @@
 <%- include partials/main_nav.ejs%>
 
 
-<!-- Main Content -->
-<!-- Conditional Content -->
+<!-- Conditional Main Content -->
 
 <!-- use home_content partial for home page -->
 <% if(title == "Home"){ %>
 <%-include partials/home_content.ejs %>
 <% } %>
 
-<!-- use about_content partial for home page -->
+<!-- use about_content partial for About Me page -->
 <% if(title == "About Me"){ %>
 <%-include partials/about_content.ejs %>
 <% } %>
 
-<!-- use products_content partial for home page -->
+<!-- use products_content partial for Products page -->
 <% if(title == "Products"){ %>
-//include home partial
+<%-include partials/project_content.ejs %>
 <% } %>
 
-<!-- use services_content partial for home page -->
+<!-- use services_content partial for Services page -->
 <% if(title == "Services"){ %>
+<%-include partials/service_content.ejs %>
 //include home partial
 <% } %>
-
-
-<% if(title == "Contact Me"){ %>
-//include home partial
-<% } %>
-
-
 
 <%- include partials/bottom_nav.ejs%>
 
